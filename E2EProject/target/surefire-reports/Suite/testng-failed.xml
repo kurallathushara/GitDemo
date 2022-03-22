@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Academy.E2EProject.Home">
+        <methods>
+          <include name="HomePageNavi" invocation-numbers="0 1"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.Home -->
+      <class name="Academy.E2EProject.NavigationBar">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.NavigationBar -->
+      <class name="Academy.E2EProject.ValidateTitle">
+        <methods>
+          <include name="Validate"/>
+          <include name="launch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
